@@ -65,7 +65,7 @@ for i in range(EPOCHS):
 ### 1.3.1. NN approach results
 
 <details>
-    <summary>CLIKC TO SHOW RESULTS</summary>
+    <summary>CLICK TO SHOW RESULTS</summary>
     <table>
         <tr>
             <th>Region</th>
