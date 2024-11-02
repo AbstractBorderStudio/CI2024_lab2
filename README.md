@@ -48,9 +48,9 @@ The cities' info is loaded form a csv file into a `Dataframe`.
 I started my research by re-implementing the simplest solution seen during the lectures.
 
 - First, pick a random city from the avaible cities.
-- Then choose the nearest neighbor until we cover all the cities.
+- Then, choose the nearest neighbor until we cover all the cities.
 
-The only thing I added was a cycle to optimize the distanze and get the optimum
+The only thing I added was a cycle to optimize the distanze and get the optimum.
 
 ```py
 EPOCHS = 1000
@@ -72,27 +72,27 @@ for i in range(EPOCHS):
     </tr>
     <tr>
         <td>Vanuatu</td>
-        <td>1475.528091104531km</td>
+        <td>1475.528091104531</td>
         <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Italy</td>
-        <td>4436.03176952516km</td>
+        <td>4436.03176952516</td>
        <td><img src='imgs/nn_italy.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Russia</td>
-        <td>40051.58704748039km</td>
+        <td>40051.58704748039</td>
         <td><img src='imgs/nn_russia.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>US</td>
-        <td>46244.33295267395km</td>
+        <td>46244.33295267395</td>
         <td><img src='imgs/nn_us.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>China</td>
-        <td>62161.09066703267km</td>
+        <td>62161.09066703267</td>
         <td><img src='imgs/nn_china.png' style='width:75%'></td>
     </tr>
 </table>
