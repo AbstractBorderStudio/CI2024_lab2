@@ -27,7 +27,7 @@ The shortest paths are:
 | Vanuatu | 8       | 1345.64            |
 | Italy   | 46      | 4172.76            |
 | Russia  | 167     | 32722.5            |
-| US      | 340     | 3901662065726,7    |
+| US      | 340     | 39016.62           |
 | China   | 746     | ???                |
 
 
@@ -101,5 +101,10 @@ for i in range(EPOCHS):
 </details>
 
 ## 1.4. Solution #2: Greedy approach
+
+Trying to implement the `Christofides algorithm`.
+
+- https://en.wikipedia.org/wiki/Christofides_algorithm
+- https://www.youtube.com/watch?v=GiDsjIBOVoA&t=663s&ab_channel=Reducible
 
 ## 1.5. Solution #3: EA approach
