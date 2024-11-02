@@ -5,6 +5,7 @@
   - [1.2. The problem](#12-the-problem)
     - [1.2.1. Representation](#121-representation)
   - [1.3. Solution #1: Nearest neighbor approach](#13-solution-1-nearest-neighbor-approach)
+    - [RESULTS!](#results)
   - [1.4. Solution #2: Greedy approach](#14-solution-2-greedy-approach)
   - [1.5. Solution #3: EA approach](#15-solution-3-ea-approach)
 
@@ -48,6 +49,20 @@ I started my research by re-implementing the simplest solution seen during the l
 
 - First, pick a random city from the avaible cities.
 - Then choose the nearest neighbor until we cover all the cities.
+
+The only thing I added was a cycle to optimize the distanze and get the optimum
+
+```py
+EPOCHS = 1000
+tsp_sol, cost = _nn_approach(CITIES, DIST_MATRIX)
+for i in range(EPOCHS):
+    new_tsp_sol, new_cost = _nn_approach(CITIES, DIST_MATRIX)
+    if new_cost < cost:
+        tsp_sol = new_tsp_sol
+        cost = new_cost
+```
+
+### RESULTS!
 
 <table>
     <tr>
