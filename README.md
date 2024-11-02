@@ -5,7 +5,7 @@
   - [1.2. The problem](#12-the-problem)
     - [1.2.1. Representation](#121-representation)
   - [1.3. Solution #1: Nearest neighbor approach](#13-solution-1-nearest-neighbor-approach)
-    - [RESULTS!](#results)
+    - [1.3.1. NN approach results](#131-nn-approach-results)
   - [1.4. Solution #2: Greedy approach](#14-solution-2-greedy-approach)
   - [1.5. Solution #3: EA approach](#15-solution-3-ea-approach)
 
@@ -62,40 +62,43 @@ for i in range(EPOCHS):
         cost = new_cost
 ```
 
-### RESULTS!
+### 1.3.1. NN approach results
 
-<table>
-    <tr>
-        <th>Region</th>
-        <th>Shortest_path (km)</th>
-        <th>Graph</th>
-    </tr>
-    <tr>
-        <td>Vanuatu</td>
-        <td>1475.528091104531</td>
-        <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
-    </tr>
-    <tr>
-        <td>Italy</td>
-        <td>4436.03176952516</td>
-       <td><img src='imgs/nn_italy.png' style='width:75%'></td>
-    </tr>
-    <tr>
-        <td>Russia</td>
-        <td>40051.58704748039</td>
-        <td><img src='imgs/nn_russia.png' style='width:75%'></td>
-    </tr>
-    <tr>
-        <td>US</td>
-        <td>46244.33295267395</td>
-        <td><img src='imgs/nn_us.png' style='width:75%'></td>
-    </tr>
-    <tr>
-        <td>China</td>
-        <td>62161.09066703267</td>
-        <td><img src='imgs/nn_china.png' style='width:75%'></td>
-    </tr>
-</table>
+<details>
+    <summary>CLIKC TO SHOW RESULTS</summary>
+    <table>
+        <tr>
+            <th>Region</th>
+            <th>Shortest_path (km)</th>
+            <th>Graph</th>
+        </tr>
+        <tr>
+            <td>Vanuatu</td>
+            <td>1475.528091104531</td>
+            <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>Italy</td>
+            <td>4436.03176952516</td>
+        <td><img src='imgs/nn_italy.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>40051.58704748039</td>
+            <td><img src='imgs/nn_russia.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>US</td>
+            <td>46244.33295267395</td>
+            <td><img src='imgs/nn_us.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>62161.09066703267</td>
+            <td><img src='imgs/nn_china.png' style='width:75%'></td>
+        </tr>
+    </table>
+</details>
 
 ## 1.4. Solution #2: Greedy approach
 
