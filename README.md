@@ -1,6 +1,6 @@
-# 1. Computational Intelligence CI2024_lab2
+# 1. CI2024_lab2 - [The Traveling Saleseman Problem]
 
-- [1. Computational Intelligence CI2024\_lab2](#1-computational-intelligence-ci2024_lab2)
+- [1. CI2024\_lab2 - \[The Traveling Saleseman Problem\]](#1-ci2024_lab2---the-traveling-saleseman-problem)
   - [1.1. Lab's Objective](#11-labs-objective)
   - [1.2. The problem](#12-the-problem)
     - [1.2.1. Representation](#121-representation)
@@ -8,7 +8,10 @@
     - [1.3.1. NN approach: results](#131-nn-approach-results)
     - [1.3.2. NN approach: conclusions](#132-nn-approach-conclusions)
   - [1.4. Solution #2: EA approach](#14-solution-2-ea-approach)
-    - [1.4.1. EA approach: results](#141-ea-approach-results)
+    - [1.4.1. Method](#141-method)
+    - [1.4.2. Settings](#142-settings)
+    - [1.4.3. EA approach: results](#143-ea-approach-results)
+- [2. Credits](#2-credits)
 
 ## 1.1. Lab's Objective
 
@@ -107,7 +110,23 @@ As we can tell this approach gives us a solution not so far off to the optimal <
 
 ## 1.4. Solution #2: EA approach
 
-### 1.4.1. EA approach: results
+### 1.4.1. Method
+
+
+
+### 1.4.2. Settings
+
+I used the following configurations:
+
+```py
+POPULATION_SIZE = 100
+OFFSPRING_SIZE = 1_000
+MAX_GENERATIONS = 1_000
+GEN_OP_PROBABILITY = .4
+TOURNAMENT_SIZE = 3
+```
+
+### 1.4.3. EA approach: results
 
 > These are the best results obtained.
 
@@ -132,15 +151,32 @@ As we can tell this approach gives us a solution not so far off to the optimal <
             <td>Italy</td>
             <td>4181.6200</td>
             <td>4172.76</td>
-            <td>1001203</td>
+            <td>1001102</td>
             <td><img src='imgs/ea_italy.png' style='width:75%'></td>
         </tr>
         <tr>
             <td>Russia</td>
             <td>34270.4990</td>
             <td>32722.5</td>
-            <td>1001203</td>
+            <td>1001102</td>
             <td><img src='imgs/ea_russia.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>US</td>
+            <td>39336.2276</td>
+            <td>39016.62</td>
+            <td>1001102</td>
+            <td><img src='imgs/ea_us.png' style='width:75%'></td>
         </tr>
     </table>
 </details>
+
+# 2. Credits
+
+- Professor's `lectures` and `solutions`
+- Thanks to [Martina Plumari (s317612)](https://github.com/MartinaPlumari) who:
+  - helped me understand how `invert-over crossover` works and how to easily implement it;
+  - discussed with me possibible solution with pros and cons.
+- [Travelling salesman problem - Wikipedia](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+- [What is the Traveling Salesman Problem? - Youtube](https://www.youtube.com/watch?v=1pmBjIZ20pE&ab_channel=AlphaOpt)
+- [The Traveling Salesman Problem: When Good Enough Beats Perfect - Youtube](https://www.youtube.com/watch?app=desktop&v=GiDsjIBOVoA&ab_channel=Reducible)
