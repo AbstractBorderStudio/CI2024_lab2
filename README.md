@@ -11,6 +11,7 @@
     - [1.4.1. EA approach: Method](#141-ea-approach-method)
     - [1.4.2. EA approach: Settings](#142-ea-approach-settings)
     - [1.4.3. EA approach: results](#143-ea-approach-results)
+    - [1.4.4. EA approach: conclusions](#144-ea-approach-conclusions)
 - [2. Credits](#2-credits)
 
 ## 1.1. Lab's Objective
@@ -48,7 +49,7 @@ I started my research by re-implementing the simplest solution seen during the l
 - Then, choose the nearest neighbor;
 - Repeat until we cover all the cities.
 
-The only thing I added was a cycle to optimize the distance and get the optimum.
+The only thing I added was a <u>cycle to optimize the distance and get the optimum</u>.
 
 ```py
 EPOCHS = 1000
@@ -75,35 +76,35 @@ for i in range(EPOCHS):
         <td>1475.5281</td>
         <td>1345.54</td>
         <td>1001</td>
-        <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Italy</td>
         <td>4436.0318</td>
         <td>4172.76</td>
         <td>1001</td>
-    <td><img src='imgs/nn_italy.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/nn_italy.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Russia</td>
         <td>40051.5870</td>
         <td>32722.5</td>
         <td>1001</td>
-        <td><img src='imgs/nn_russia.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/nn_russia.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>US</td>
         <td>46244.3330</td>
         <td>39016.62</td>
         <td>1001</td>
-        <td><img src='imgs/nn_us.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/nn_us.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>China</td>
         <td>62161.0910</td>
         <td>???</td>
         <td>1001</td>
-        <td><img src='imgs/nn_china.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/nn_china.png' style='width:75%'></td>
     </tr>
 </table>
 
@@ -146,37 +147,41 @@ TOURNAMENT_SIZE = 3
         <td>1345.5450</td>
         <td>1345.54</td>
         <td>80786</td>
-        <td><img src='imgs/ea_vanuatu.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/ea_vanuatu.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Italy</td>
         <td>4181.6200</td>
         <td>4172.76</td>
         <td>1000101</td>
-        <td><img src='imgs/ea_italy.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/ea_italy.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Russia</td>
         <td>34270.4990</td>
         <td>32722.5</td>
         <td>1000101</td>
-        <td><img src='imgs/ea_russia.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/ea_russia.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>US</td>
         <td>39336.2276</td>
         <td>39016.62</td>
         <td>1000101</td>
-        <td><img src='imgs/ea_us.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/ea_us.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>China</td>
         <td>54366.4977</td>
         <td>???</td>
         <td>1000101</td>
-        <td><img src='imgs/ea_china.png' style='width:75%'></td>
+        <td style="text-align:center"><img src='imgs/ea_china.png' style='width:75%'></td>
     </tr>
 </table>
+
+### 1.4.4. EA approach: conclusions
+
+
 
 # 2. Credits
 
