@@ -66,36 +66,42 @@ for i in range(EPOCHS):
     <tr>
         <th>Region</th>
         <th>Shortest_path (km)</th>
+        <th>Optimal_path (km)</th>
         <th>Calls</th>
         <th>Graph</th>
     </tr>
     <tr>
         <td>Vanuatu</td>
         <td>1475.5281</td>
+        <td>1345.54</td>
         <td>1001</td>
-        <td><img src='imgs/nn_vanuatu.png' style='width:50%'></td>
+        <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Italy</td>
         <td>4436.0318</td>
+        <td>4172.76</td>
         <td>1001</td>
-    <td><img src='imgs/nn_italy.png' style='width:50%'></td>
+    <td><img src='imgs/nn_italy.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>Russia</td>
         <td>40051.5870</td>
+        <td>32722.5</td>
         <td>1001</td>
-        <td><img src='imgs/nn_russia.png' style='width:50%'></td>
+        <td><img src='imgs/nn_russia.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>US</td>
         <td>46244.3330</td>
+        <td>39016.62</td>
         <td>1001</td>
-        <td><img src='imgs/nn_us.png' style='width:50%'></td>
+        <td><img src='imgs/nn_us.png' style='width:75%'></td>
     </tr>
     <tr>
         <td>China</td>
         <td>62161.0910</td>
+        <td>???</td>
         <td>1001</td>
         <td><img src='imgs/nn_china.png' style='width:50%'></td>
     </tr>
