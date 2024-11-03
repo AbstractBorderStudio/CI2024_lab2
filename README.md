@@ -168,6 +168,13 @@ TOURNAMENT_SIZE = 3
             <td>1001102</td>
             <td><img src='imgs/ea_us.png' style='width:75%'></td>
         </tr>
+        <tr>
+            <td>China</td>
+            <td>54366.4977</td>
+            <td>???</td>
+            <td>1001102</td>
+            <td><img src='imgs/ea_china.png' style='width:75%'></td>
+        </tr>
     </table>
 </details>
 
