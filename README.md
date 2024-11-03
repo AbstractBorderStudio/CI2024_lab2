@@ -6,9 +6,8 @@
     - [1.2.1. Representation](#121-representation)
   - [1.3. Solution #1: Nearest neighbor approach](#13-solution-1-nearest-neighbor-approach)
     - [1.3.1. NN approach: results](#131-nn-approach-results)
-    - [NN approach: conclusions](#nn-approach-conclusions)
-  - [1.4. Solution #2: Greedy approach](#14-solution-2-greedy-approach)
-  - [1.5. Solution #3: EA approach](#15-solution-3-ea-approach)
+    - [1.3.2. NN approach: conclusions](#132-nn-approach-conclusions)
+  - [1.4. Solution #2: EA approach](#14-solution-2-ea-approach)
 
 ## 1.1. Lab's Objective
 
@@ -101,15 +100,9 @@ for i in range(EPOCHS):
     </table>
 </details>
 
-### NN approach: conclusions
+### 1.3.2. NN approach: conclusions
 
 As we can tell this approach gives us a solution not so far off to the optimal <u>but we have no chance of improvement</u>.
 
-## 1.4. Solution #2: Greedy approach
+## 1.4. Solution #2: EA approach
 
-In my research I found that the best greedy algorithm was the so called `Christofides algorithm`. Here's some references:
-
-- https://en.wikipedia.org/wiki/Christofides_algorithm
-- https://www.youtube.com/watch?v=GiDsjIBOVoA&t=663s&ab_channel=Reducible
-
-## 1.5. Solution #3: EA approach
