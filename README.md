@@ -4,10 +4,11 @@
   - [1.1. Lab's Objective](#11-labs-objective)
   - [1.2. The problem](#12-the-problem)
     - [1.2.1. Representation](#121-representation)
-  - [1.3. Solution #1: Nearest neighbor approach](#13-solution-1-nearest-neighbor-approach)
+  - [1.3. Solution #1: Greedy Nearest Neighbor (NN) approach](#13-solution-1-greedy-nearest-neighbor-nn-approach)
     - [1.3.1. NN approach: results](#131-nn-approach-results)
     - [1.3.2. NN approach: conclusions](#132-nn-approach-conclusions)
   - [1.4. Solution #2: EA approach](#14-solution-2-ea-approach)
+    - [1.4.1. EA approach: results](#141-ea-approach-results)
 
 ## 1.1. Lab's Objective
 
@@ -24,7 +25,7 @@ The shortest paths are:
 
 | Region  | #cities | Shortest_path (km) |
 |---------|---------|--------------------|
-| Vanuatu | 8       | 1345.64            |
+| Vanuatu | 8       | 1345.54            |
 | Italy   | 46      | 4172.76            |
 | Russia  | 167     | 32722.5            |
 | US      | 340     | 39016.62           |
@@ -41,9 +42,9 @@ I'll leave here some resources used in my research:
 
 The cities' info is loaded form a csv file into a `Dataframe`.
 
-> We can represent the solution as a list of city indexes. So it is a <u>fixed leght integer array representation</u>.
+> We can represent the solution as a list of city indexes. So it is a <u>fixed leght integer array</u> representation and more specifically I treated it as a one-time item list for the [EA apprach](#14-solution-2-ea-approach).
 
-## 1.3. Solution #1: Nearest neighbor approach
+## 1.3. Solution #1: Greedy Nearest Neighbor (NN) approach
 
 I started my research by re-implementing the simplest solution seen during the lectures.
 
@@ -106,3 +107,40 @@ As we can tell this approach gives us a solution not so far off to the optimal <
 
 ## 1.4. Solution #2: EA approach
 
+### 1.4.1. EA approach: results
+
+> These are the best results obtained.
+
+<details>
+    <summary><u>CLICK TO SHOW RESULTS</u></summary>
+    <table>
+        <tr>
+            <th>Region</th>
+            <th>Shortest_path (km)</th>
+            <th>Optimal_path (km)</th>
+            <th>Calls</th>
+            <th>Graph</th>
+        </tr>
+        <tr>
+            <td>Vanuatu</td>
+            <td>1345.5450</td>
+            <td>1345.54</td>
+            <td>80786</td>
+            <td><img src='imgs/ea_vanuatu.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>Italy</td>
+            <td>4181.6200</td>
+            <td>4172.76</td>
+            <td>1001203</td>
+            <td><img src='imgs/ea_italy.png' style='width:75%'></td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>34270.4990</td>
+            <td>32722.5</td>
+            <td>1001203</td>
+            <td><img src='imgs/ea_russia.png' style='width:75%'></td>
+        </tr>
+    </table>
+</details>
