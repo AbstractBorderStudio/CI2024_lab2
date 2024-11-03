@@ -147,7 +147,7 @@ TOURNAMENT_SIZE = 3
 
 ### 1.4.3. EA approach: results
 
-> These are the best results obtained so far.
+> <u>Note that these are the best results obtained so far running multiple times the algorithm</u>.
 
 <table>
     <tr>
@@ -205,7 +205,7 @@ During my researches I tryied different alternatives:
 
 In every case I always got worse reults, compared to the [current algorithm](#141-ea-approach-method).
 
-To conclude, I would like to highlight that this algorithm can be impreved extensively and needs more fine-tuning to get even better results. In the future, I'd like to expand the code by adding alternative approches like new mutation or xover types, or even comparing the hyper-modern approach with the modern and classical one.
+To conclude, I would like to highlight that this algorithm can be improved extensively and needs more fine-tuning. In the future, I'd like to expand the code by adding alternative approches like new mutation or xover types, or even comparing the hyper-modern approach with the modern and classical one.
 
 # 2. Credits
 
