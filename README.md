@@ -103,7 +103,7 @@ for i in range(EPOCHS):
         <td>62161.0910</td>
         <td>???</td>
         <td>1001</td>
-        <td><img src='imgs/nn_china.png' style='width:50%'></td>
+        <td><img src='imgs/nn_china.png' style='width:75%'></td>
     </tr>
 </table>
 
