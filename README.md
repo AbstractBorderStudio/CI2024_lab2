@@ -1,6 +1,6 @@
-# 1. CI2024_lab2 - [The Traveling Saleseman Problem]
+# 1. CI2024_lab2 - [The Traveling Salesman Problem]
 
-- [1. CI2024\_lab2 - \[The Traveling Saleseman Problem\]](#1-ci2024_lab2---the-traveling-saleseman-problem)
+- [1. CI2024\_lab2 - \[The Traveling Salesman Problem\]](#1-ci2024_lab2---the-traveling-salesman-problem)
   - [1.1. Lab's Objective](#11-labs-objective)
   - [1.2. The problem](#12-the-problem)
     - [1.2.1. Representation](#121-representation)
