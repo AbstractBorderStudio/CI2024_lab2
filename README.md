@@ -115,8 +115,23 @@ As we can tell this approach gives us a solution not so far off to the optimal <
 ## 1.4. Solution #2: EA approach
 
 ### 1.4.1. EA approach: Method
+> I decided to use an `hyper-modern` approach for choosing the `genetic operators` with the following configurations:
+> - `tournament parent selection`
+> - `inversion mutation`
+> - `invert over xover`
 
+My algorithm goes as follow:
 
+1. Create a `starting population` from the NN approach
+2. Iterate for `MAX_GENERATIONS` steps every time getting the best solution
+
+For each step:
+1. Generate `OFFSPRING_SIZE` new solutions;
+   1. for the chosen method perform a `tournament parent selection`.
+      1. apply with `GEN_OP_PROBABILITY` `inversion mutation` 
+      2. or else do `invert over xover`;
+2. Add the new solutions to the population;
+3. Let only the first `POPULATION_SIZE` solutions survive.
 
 ### 1.4.2. EA approach: Settings
 
@@ -181,12 +196,21 @@ TOURNAMENT_SIZE = 3
 
 ### 1.4.4. EA approach: conclusions
 
+In comparison with the [Greedy NN](#13-solution-1-greedy-nearest-neighbor-nn-approach), the new EA approach surely gets results much closer to the optimal.
 
+During my researches I tryied different alternatives:
+- implement a `modern approch` (check the [tsp](tsp.ipynb) file) of the genetic operators;
+- an `instert mutation`;
+- a `generational approach`.
+
+In every case I always got worse reults, compared to the [current algorithm](#141-ea-approach-method).
+
+To conclude, I would like to highlight that this algorithm can be impreved extensively and needs more fine-tuning to get even better results. In the future, I'd like to expand the code by adding alternative approches like new mutation or xover types, or even comparing the hyper-modern approach with the modern and classical one.
 
 # 2. Credits
 
 - Thanks to [Martina Plumari (s317612)](https://github.com/MartinaPlumari) who:
-  - helped me understand how `invert-over mutation` works and how to easily implement it;
+  - helped me understand how `invert-over crossover` works and how to easily implement it;
   - discussed with me possible solutions with `pros` and `cons`.
 - Professor's `lectures` and `solutions`
   - Was a good start for understanding the basics, expecially for the lectures about EA and the labs where professor implemented the `set-covering with EA approach` and the `tsp greedy solution`.
