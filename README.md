@@ -73,31 +73,31 @@ for i in range(EPOCHS):
         <td>Vanuatu</td>
         <td>1475.5281</td>
         <td>1001</td>
-        <td><img src='imgs/nn_vanuatu.png' style='width:75%'></td>
+        <td><img src='imgs/nn_vanuatu.png' style='width:50%'></td>
     </tr>
     <tr>
         <td>Italy</td>
         <td>4436.0318</td>
         <td>1001</td>
-    <td><img src='imgs/nn_italy.png' style='width:75%'></td>
+    <td><img src='imgs/nn_italy.png' style='width:50%'></td>
     </tr>
     <tr>
         <td>Russia</td>
         <td>40051.5870</td>
         <td>1001</td>
-        <td><img src='imgs/nn_russia.png' style='width:75%'></td>
+        <td><img src='imgs/nn_russia.png' style='width:50%'></td>
     </tr>
     <tr>
         <td>US</td>
         <td>46244.3330</td>
         <td>1001</td>
-        <td><img src='imgs/nn_us.png' style='width:75%'></td>
+        <td><img src='imgs/nn_us.png' style='width:50%'></td>
     </tr>
     <tr>
         <td>China</td>
         <td>62161.0910</td>
         <td>1001</td>
-        <td><img src='imgs/nn_china.png' style='width:75%'></td>
+        <td><img src='imgs/nn_china.png' style='width:50%'></td>
     </tr>
 </table>
 
